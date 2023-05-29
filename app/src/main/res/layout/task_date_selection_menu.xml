@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <CalendarView
+        android:id="@+id/task_date_selection_menu_calender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/mainColor50" />
+
+    <Button
+        android:id="@+id/task_date_selection_menu_setTimeButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#000"
+        android:gravity="center"
+        android:text="SET TIME"
+        android:textColor="?attr/textColorDark600"
+        app:backgroundTint="?attr/mainColor500"
+        app:icon="@drawable/baseline_access_time_filled_24"
+        app:iconGravity="textStart"
+        app:iconTint="?attr/textColorDark600" />
+
+    <Button
+        android:id="@+id/task_date_selection_menu_setReminderButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#000"
+        android:gravity="center"
+        android:text="SET REMINDER"
+        android:textColor="?attr/textColorDark600"
+        app:backgroundTint="?attr/mainColor500"
+        app:icon="@drawable/baseline_alarm_24"
+        app:iconGravity="textStart"
+        app:iconTint="?attr/textColorDark600" />
+
+
+</LinearLayout>

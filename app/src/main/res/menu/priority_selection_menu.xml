@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/highPriority"
+        android:icon="@drawable/priority_high_flag_24"
+        android:title="High Priority" />
+    <item
+        android:id="@+id/mediumPriority"
+        android:icon="@drawable/priority_medium_flag_24"
+        android:title="Medium Priority"/>
+    <item
+        android:id="@+id/lowPriority"
+        android:icon="@drawable/priority_low_flag_24"
+        android:title="Low Priority"
+        />
+    <item
+        android:id="@+id/noPriority"
+        android:icon="@drawable/prioirty_no_flag_24"
+        android:title="No Priority"
+        />
+</menu>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="mainColor50" format="color" />
+    <attr name="mainColor100" format="color" />
+    <attr name="mainColor200" format="color" />
+    <attr name="mainColor300" format="color" />
+    <attr name="mainColor400" format="color" />
+    <attr name="mainColor500" format="color" />
+    <attr name="mainColor600" format="color" />
+    <attr name="mainColor700" format="color" />
+    <attr name="mainColor800" format="color" />
+    <attr name="mainColor900" format="color" />
+    <attr name="mainColorA100" format="color" />
+    <attr name="mainColorA200" format="color" />
+    <attr name="mainColorA400" format="color" />
+    <attr name="mainColorA700" format="color" />
+
+    <attr name="textColorDark50" format="color" />
+    <attr name="textColorDark300" format="color" />
+    <attr name="textColorDark600" format="color" />
+    <attr name="textColorDark900" format="color" />
+
+    <attr name="textColorLight50" format="color" />
+    <attr name="textColorLight300" format="color" />
+    <attr name="textColorLight600" format="color" />
+    <attr name="textColorLight900" format="color" />
+
+    <attr name="priorityColorRed" format="color" />
+    <attr name="priorityColorBlue" format="color" />
+    <attr name="priorityColorOrange" format="color" />
+</resources>

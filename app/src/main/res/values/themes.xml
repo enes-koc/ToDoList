@@ -1,0 +1,190 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.MainTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="mainColor50">@color/mainColor50</item>
+        <item name="mainColor100">@color/mainColor100</item>
+        <item name="mainColor200">@color/mainColor200</item>
+        <item name="mainColor300">@color/mainColor300</item>
+        <item name="mainColor400">@color/mainColor400</item>
+        <item name="mainColor500">@color/mainColor500</item>
+        <item name="mainColor600">@color/mainColor600</item>
+        <item name="mainColor700">@color/mainColor700</item>
+        <item name="mainColor800">@color/mainColor800</item>
+        <item name="mainColor900">@color/mainColor900</item>
+        <item name="mainColorA100">@color/mainColorA100</item>
+        <item name="mainColorA200">@color/mainColorA200</item>
+        <item name="mainColorA400">@color/mainColorA400</item>
+        <item name="mainColorA700">@color/mainColorA700</item>
+
+        <item name="textColorDark50">@color/textColorDark50</item>
+        <item name="textColorDark300">@color/textColorDark300</item>
+        <item name="textColorDark600">@color/textColorDark600</item>
+        <item name="textColorDark900">@color/textColorDark900</item>
+
+        <item name="textColorLight50">@color/textColorLight50</item>
+        <item name="textColorLight300">@color/textColorLight300</item>
+        <item name="textColorLight600">@color/textColorLight600</item>
+        <item name="textColorLight900">@color/textColorLight900</item>
+
+        <item name="priorityColorRed">@color/priorityColorRed</item>
+        <item name="priorityColorBlue">@color/priorityColorBlue</item>
+        <item name="priorityColorOrange">@color/priorityColorOrange</item>
+
+        <item name="android:statusBarColor">@color/mainColor400</item>
+        <item name="colorAccent">@color/mainColor400</item>
+        <item name="android:itemBackground">@color/mainColor50</item>
+        <item name="android:actionMenuTextColor">@color/textColorDark600</item>
+    </style>
+
+    <style name="Theme.SummerTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="mainColor50">@color/summerColor50</item>
+        <item name="mainColor100">@color/summerColor100</item>
+        <item name="mainColor200">@color/summerColor200</item>
+        <item name="mainColor300">@color/summerColor300</item>
+        <item name="mainColor400">@color/summerColor400</item>
+        <item name="mainColor500">@color/summerColor500</item>
+        <item name="mainColor600">@color/summerColor600</item>
+        <item name="mainColor700">@color/summerColor700</item>
+        <item name="mainColor800">@color/summerColor800</item>
+        <item name="mainColor900">@color/summerColor900</item>
+        <item name="mainColorA100">@color/summerColorA100</item>
+        <item name="mainColorA200">@color/summerColorA200</item>
+        <item name="mainColorA400">@color/summerColorA400</item>
+        <item name="mainColorA700">@color/summerColorA700</item>
+
+        <item name="textColorDark50">@color/textColorDark50</item>
+        <item name="textColorDark300">@color/textColorDark300</item>
+        <item name="textColorDark600">@color/textColorDark600</item>
+        <item name="textColorDark900">@color/textColorDark900</item>
+
+        <item name="textColorLight50">@color/textColorLight50</item>
+        <item name="textColorLight300">@color/textColorLight300</item>
+        <item name="textColorLight600">@color/textColorLight600</item>
+        <item name="textColorLight900">@color/textColorLight900</item>
+
+        <item name="priorityColorRed">@color/priorityColorRed</item>
+        <item name="priorityColorBlue">@color/priorityColorBlue</item>
+        <item name="priorityColorOrange">@color/priorityColorOrange</item>
+
+        <item name="android:statusBarColor">@color/summerColor400</item>
+        <item name="colorAccent">@color/summerColor400</item>
+        <item name="android:itemBackground">@color/summerColor50</item>
+        <item name="android:actionMenuTextColor">@color/textColorDark600</item>
+    </style>
+
+    <style name="Theme.WinterTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="mainColor50">@color/winterColor50</item>
+        <item name="mainColor100">@color/winterColor100</item>
+        <item name="mainColor200">@color/winterColor200</item>
+        <item name="mainColor300">@color/winterColor300</item>
+        <item name="mainColor400">@color/winterColor400</item>
+        <item name="mainColor500">@color/winterColor500</item>
+        <item name="mainColor600">@color/winterColor600</item>
+        <item name="mainColor700">@color/winterColor700</item>
+        <item name="mainColor800">@color/winterColor800</item>
+        <item name="mainColor900">@color/winterColor900</item>
+        <item name="mainColorA100">@color/winterColorA100</item>
+        <item name="mainColorA200">@color/winterColorA200</item>
+        <item name="mainColorA400">@color/winterColorA400</item>
+        <item name="mainColorA700">@color/winterColorA700</item>
+
+        <item name="textColorDark50">@color/textColorDark50</item>
+        <item name="textColorDark300">@color/textColorDark300</item>
+        <item name="textColorDark600">@color/textColorDark600</item>
+        <item name="textColorDark900">@color/textColorDark900</item>
+
+        <item name="textColorLight50">@color/textColorLight50</item>
+        <item name="textColorLight300">@color/textColorLight300</item>
+        <item name="textColorLight600">@color/textColorLight600</item>
+        <item name="textColorLight900">@color/textColorLight900</item>
+
+        <item name="priorityColorRed">@color/priorityColorRed</item>
+        <item name="priorityColorBlue">@color/priorityColorBlue</item>
+        <item name="priorityColorOrange">@color/priorityColorOrange</item>
+
+        <item name="android:statusBarColor">@color/winterColor400</item>
+        <item name="colorAccent">@color/winterColor400</item>
+        <item name="android:itemBackground">@color/winterColor50</item>
+        <item name="android:actionMenuTextColor">@color/textColorDark600</item>
+    </style>
+
+    <style name="Theme.SpringTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="mainColor50">@color/springColor50</item>
+        <item name="mainColor100">@color/springColor100</item>
+        <item name="mainColor200">@color/springColor200</item>
+        <item name="mainColor300">@color/springColor300</item>
+        <item name="mainColor400">@color/springColor400</item>
+        <item name="mainColor500">@color/springColor500</item>
+        <item name="mainColor600">@color/springColor600</item>
+        <item name="mainColor700">@color/springColor700</item>
+        <item name="mainColor800">@color/springColor800</item>
+        <item name="mainColor900">@color/springColor900</item>
+        <item name="mainColorA100">@color/springColorA100</item>
+        <item name="mainColorA200">@color/springColorA200</item>
+        <item name="mainColorA400">@color/springColorA400</item>
+        <item name="mainColorA700">@color/springColorA700</item>
+
+        <item name="textColorDark50">@color/textColorDark50</item>
+        <item name="textColorDark300">@color/textColorDark300</item>
+        <item name="textColorDark600">@color/textColorDark600</item>
+        <item name="textColorDark900">@color/textColorDark900</item>
+
+        <item name="textColorLight50">@color/textColorLight50</item>
+        <item name="textColorLight300">@color/textColorLight300</item>
+        <item name="textColorLight600">@color/textColorLight600</item>
+        <item name="textColorLight900">@color/textColorLight900</item>
+
+        <item name="priorityColorRed">@color/priorityColorRed</item>
+        <item name="priorityColorBlue">@color/priorityColorBlue</item>
+        <item name="priorityColorOrange">@color/priorityColorOrange</item>
+
+        <item name="android:statusBarColor">@color/springColor400</item>
+        <item name="colorAccent">@color/springColor400</item>
+        <item name="android:itemBackground">@color/springColor50</item>
+        <item name="android:actionMenuTextColor">@color/textColorDark600</item>
+    </style>
+
+    <style name="Theme.AutumnTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="mainColor50">@color/autumnColor50</item>
+        <item name="mainColor100">@color/autumnColor100</item>
+        <item name="mainColor200">@color/autumnColor200</item>
+        <item name="mainColor300">@color/autumnColor300</item>
+        <item name="mainColor400">@color/autumnColor400</item>
+        <item name="mainColor500">@color/autumnColor500</item>
+        <item name="mainColor600">@color/autumnColor600</item>
+        <item name="mainColor700">@color/autumnColor700</item>
+        <item name="mainColor800">@color/autumnColor800</item>
+        <item name="mainColor900">@color/autumnColor900</item>
+        <item name="mainColorA100">@color/autumnColorA100</item>
+        <item name="mainColorA200">@color/autumnColorA200</item>
+        <item name="mainColorA400">@color/autumnColorA400</item>
+        <item name="mainColorA700">@color/autumnColorA700</item>
+
+        <item name="textColorDark50">@color/textColorDark50</item>
+        <item name="textColorDark300">@color/textColorDark300</item>
+        <item name="textColorDark600">@color/textColorDark600</item>
+        <item name="textColorDark900">@color/textColorDark900</item>
+
+        <item name="textColorLight50">@color/textColorLight50</item>
+        <item name="textColorLight300">@color/textColorLight300</item>
+        <item name="textColorLight600">@color/textColorLight600</item>
+        <item name="textColorLight900">@color/textColorLight900</item>
+
+        <item name="priorityColorRed">@color/priorityColorRed</item>
+        <item name="priorityColorBlue">@color/priorityColorBlue</item>
+        <item name="priorityColorOrange">@color/priorityColorOrange</item>
+
+        <item name="android:statusBarColor">@color/autumnColor400</item>
+        <item name="colorAccent">@color/autumnColor400</item>
+        <item name="android:itemBackground">@color/autumnColor50</item>
+        <item name="android:actionMenuTextColor">@color/textColorDark600</item>
+    </style>
+
+    <style name="DialogStyle" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowSoftInputMode">adjustResize</item>
+    </style>
+
+
+</resources>

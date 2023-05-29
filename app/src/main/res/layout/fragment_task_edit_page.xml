@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".view.TaskEditPage"
+    android:background="?attr/mainColor50">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        tools:ignore="MissingConstraints"
+        android:background="?attr/mainColor100">
+
+        <CheckBox
+            android:id="@+id/taskEditPageTaskIsComplated"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="-5dp"
+            android:buttonTint="?attr/mainColor400"
+            android:scaleX="0.8"
+            android:scaleY="0.8" />
+
+        <TextView
+            android:id="@+id/taskEditPageTaskDate"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="6dp"
+            android:layout_weight="1"
+            android:maxLength="50"
+            android:textColor="?attr/textColorLight600"
+            android:text="Test"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:id="@+id/recyclerViewReminderImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:foregroundGravity="center"
+            android:visibility="visible"
+            android:paddingEnd="7dp"
+            app:srcCompat="@drawable/baseline_access_alarms_24"
+            app:tint="?attr/mainColor800" />
+
+
+        <ImageView
+            android:id="@+id/taskEditPagePriorityImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:foregroundGravity="center"
+            android:paddingEnd="20dp"
+            app:srcCompat="@drawable/prioirty_no_flag_24" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/taskEditPageTaskName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+        android:background="@null"
+        android:paddingStart="10dp"
+        android:text="Task Name"
+        android:textColor="?attr/textColorLight900"
+        android:textSize="27sp"
+        android:maxLength="50"
+        android:maxLines="2"/>
+
+    <EditText
+        android:id="@+id/taskEditPageDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@null"
+        android:ems="10"
+        android:gravity="left"
+        android:hint="Description"
+        android:textColor="?attr/textColorLight600"
+        android:inputType="textMultiLine"
+        android:minLines="20"
+        android:maxLines="30"
+        android:text="" />
+
+</LinearLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/toDoListRecyclerView"
+        android:icon="@drawable/baseline_check_box_24"
+        android:title="To Do List" />
+    <item
+        android:id="@+id/calendar"
+        android:icon="@drawable/baseline_calendar_today_24"
+        android:title="Calendar" />
+    <item
+        android:id="@+id/charts"
+        android:icon="@drawable/baseline_area_chart_24"
+        android:title="Charts" />
+</menu>

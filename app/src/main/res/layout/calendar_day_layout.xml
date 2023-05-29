@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/calenderDayLayout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/calendarDayText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="-2dp"
+        android:gravity="center"
+        android:textSize="18sp"
+        tools:text="99"/>
+
+    <LinearLayout
+        android:layout_width="65dp"
+        android:layout_height="20dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:visibility="visible">
+
+        <ImageView
+            android:id="@+id/imageEvent1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-4.5dp"
+            android:layout_marginRight="-4.5dp"
+            android:scaleX="0.7"
+            android:scaleY="0.7"
+            android:visibility="gone"
+            app:srcCompat="@drawable/baseline_circle_24"
+            app:tint="?attr/mainColorA100" />
+
+        <ImageView
+            android:id="@+id/imageEvent2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-4.5dp"
+            android:layout_marginRight="-4.5dp"
+            android:scaleX="0.7"
+            android:scaleY="0.7"
+            android:visibility="gone"
+            app:srcCompat="@drawable/baseline_circle_24"
+            app:tint="?attr/mainColorA100" />
+
+        <ImageView
+            android:id="@+id/imageEvent3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-4.5dp"
+            android:layout_marginRight="-4.5dp"
+            android:scaleX="0.7"
+            android:scaleY="0.7"
+            android:visibility="gone"
+            app:srcCompat="@drawable/baseline_circle_24"
+            app:tint="?attr/mainColorA100" />
+    </LinearLayout>
+</LinearLayout>

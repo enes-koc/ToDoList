@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".view.ChartsPage">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/mainColor50"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="Overview"
+        android:textColor="?attr/textColorLight600"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <!--        ?attr/mainColor100-->
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <ProgressBar
+                android:id="@+id/progressBar"
+                style="@style/Widget.Material3.CircularProgressIndicator.Medium"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:background="?attr/mainColor100"
+                android:progressDrawable="@drawable/progress_bar_circle" />
+
+            <TextView
+                android:id="@+id/progressBarText"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="%20"
+                android:textColor="?attr/mainColor700"
+                android:textSize="27sp" />
+
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="?attr/mainColor200"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="2dp">
+
+                <TextView
+                    android:id="@+id/totalTasksText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:paddingBottom="3dp"
+                    android:text="382"
+                    android:textColor="?attr/mainColor700"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Total Tasks"
+                    android:textColor="?attr/mainColor700" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="?attr/mainColor300"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/ongoingTasksText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:paddingBottom="3dp"
+                    android:text="382"
+                    android:textColor="?attr/mainColor700"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Ongoing Tasks"
+                    android:textColor="?attr/mainColor700" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="?attr/mainColor200"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/complatedTaksText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:paddingBottom="3dp"
+                    android:text="382"
+                    android:textColor="?attr/mainColor700"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Complated Tasks"
+                    android:textColor="?attr/mainColor700" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/mainColor50"
+            android:padding="5dp">
+
+            <com.github.aachartmodel.aainfographics.aachartcreator.AAChartView
+                android:id="@+id/aa_week_chart_view"
+                android:layout_width="match_parent"
+                android:layout_height="300dp" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/chartNextWeek"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:paddingTop="13dp"
+            android:paddingEnd="110dp"
+            android:scaleX="0.8"
+            android:scaleY="0.8"
+            android:src="@drawable/baseline_arrow_forward_ios_24" />
+
+        <ImageView
+            android:id="@+id/chartPrevWeek"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="110dp"
+            android:paddingTop="13dp"
+            android:scaleX="0.8"
+            android:scaleY="0.8"
+            android:src="@drawable/baseline_arrow_back_ios_24" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="?attr/mainColor50"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/todayTaskText"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="You did 5 of your tasks today."
+            android:textSize="22sp"
+            android:gravity="center"
+            android:textColor="?attr/textColorLight900"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            />
+
+        <RelativeLayout
+            android:id="@+id/todayProgressBarRelativeLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <ProgressBar
+                android:id="@+id/todayProgressBar"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:progress="100"
+                android:scaleY="8" />
+
+            <TextView
+                android:id="@+id/todayProgressBarText"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:text="5/8"
+                android:textColor="?attr/textColorDark600"
+                android:gravity="center"/>
+
+        </RelativeLayout>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
